@@ -1,66 +1,155 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
-    
+
     <title>Megas portifólio</title>
+    <style>
+        body {
+            background-color: #3C474B;
+        }
+
+        h1 {
+            font-family: fantasy;
+        }
+
+        h2 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        }
+
+        h3 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        #about {
+            background-color: #162521;
+            color: white;
+            font-size: 1.5em;
+        }
+
+        #comp {
+            font-size: 2em;
+        }
+
+        #disp {
+            font-size: 1.75em;
+        }
+
+        #curio {
+            font-size: 1.5em;
+        }
+
+        #amv {
+            font-size: 1.25em;
+        }
+
+        #lev {
+            font-size: 1em;
+        }
+
+        #megas {
+            font-style: oblique;
+            font-weight: bold;
+            letter-spacing: 1.15px;
+            font-size: 1.15em;
+            color: crimson;
+            text-shadow: -1px -1px 0px #FFF, -1px 1px 0px #FFF, 1px 0px 0px #FFF;
+
+        }
+
+        .lista {
+            text-align: center;
+            background-color: #9EEFE5;
+            color: white;
+            font-weight: bold;
+            list-style-position: inside;
+        }
+        #links {
+            font-size: 1.5em;
+        }
+
+        
+    </style>
 </head>
+
 <body>
     <h1 id="boas">Bem-vindo ao meu portifólio</h1>
-    <h2>Aqui você verá algumas aplicações web que desenvolvi e venho desenvolvendo. 
-    <br>Fique a vontade para entrar em contato pelo <a href="https://www.linkedin.com/in/melquisedeque-do-nascimento-a3a786105/" alt="'linkedin" target="_blanck">linkedin</a>.<br>
-    Será um prazer conversar com você.
+    <h2>Aqui você verá algumas aplicações web que desenvolvi e venho desenvolvendo.
+        <br>Fique a vontade para entrar em contato pelo <a
+            href="https://www.linkedin.com/in/melquisedeque-do-nascimento-a3a786105/" alt="'linkedin"
+            target="_blanck">linkedin</a>.<br>
+        Será um prazer conversar com você.
     </h2>
-    
+
     <br>
-    <h3 id="nome">Bom, meu nome é Melquisedeque Damasceno, mas pode me chamar de Megas ;).</h3>
+    <h3 id="nome">Bom, meu nome é Melquisedeque Damasceno, mas pode me chamar de <strong id="megas">Megas</strong> ;).
+    </h3>
     <br>
-  
-    <img id="fot" src="foto.jpg" alt="Minha foto com estilo." width="200">
- 
+
+    <img id="fot" src="./imgs/foto.jpg" alt="Minha foto com estilo." width="200">
+
     <p id="about">Falar sobre si mesmo não é uma tarefa fácil, no geral sou brasileiro <s>e não desisto nunca</s>.
-    Nascido em 27/04/1993 d.C. e criado em Cabo frio - RJ . Gosto de plantar, ouvir <em>audiobooks</em>, ir na academia e nerdices em geral.
+        Nascido em 27/04/1993 d.C. e criado em Cabo frio - RJ . Gosto de plantar, ouvir <em>audiobooks</em>, ir na
+        academia e nerdices em geral.
     </p>
 
-   <p id="palavra">Uma palavra que gosto bastante é <strong>Resiliência</strong>, fundamental em muitos momentos para superar desafios.
-   </p>
-   <br>
-  
-   <p id="hab">linstando umas habilidades que considero possuir.</p>
+    <p id="palavra">Uma palavra que gosto bastante é <strong>Resiliência</strong>, fundamental em muitos momentos para
+        superar desafios.
+    </p>
+    <br>
 
- 
-   
-   <ol>
-    <li>Comprometimento;</li>
-    <li>Disposição;</li>
-    <li>Curiosidade;</li>
-    <li>Ambição; e</li>
-    <li>Levesa.</li>
-   </ol>
-   
-   <p id="link">Links internos</p>
-    <ul>
-    <li><p><a href="#boas" alt="Link boas vindas">Link para boas vindas.</a></p></li>
-    <li><p><a href="#nome" alt="Link nome">Link para nome.</a></p></li>
-    <li><p><a href="#fot" alt="Link para a foto">Link para minha foto.</a></p></li>
-    <li><p><a href="#about" alt="Link sombre mim">Link para apresentação.</a></p></li>
-    <li><p><a href="#palavra" alt="Link resiliencia">Link para resiliencia.</a></p></li>
-    <li><p><a href="#hab" alt="Link lista de habilidades">Link para habilidades.</a></p></li>
-    <li><p><a href="#link" alt="Link lista links">Link para lista de links.</a></p></li>
-
-   </ul>
-    
-    
-    
-    
-    
-   
-    
-    
-    
+    <p id="hab">linstando umas habilidades que considero possuir.</p>
 
 
-    
+
+    <ol class="lista">
+        <li id="comp">Comprometimento;</li>
+        <li id="disp">Disposição;</li>
+        <li id="curio">Curiosidade;</li>
+        <li id="amb">Ambição; e</li>
+        <li id="lev">Levesa.</li>
+    </ol>
+
+    <p id="links">Links internos</p>
+    <ul class="lista">
+        <li>
+            <p><a href="#boas" alt="Link boas vindas">Link para boas vindas.</a></p>
+        </li>
+        <li>
+            <p><a href="#nome" alt="Link nome">Link para nome.</a></p>
+        </li>
+        <li>
+            <p><a href="#fot" alt="Link para a foto">Link para minha foto.</a></p>
+        </li>
+        <li>
+            <p><a href="#about" alt="Link sombre mim">Link para apresentação.</a></p>
+        </li>
+        <li>
+            <p><a href="#palavra" alt="Link resiliencia">Link para resiliencia.</a></p>
+        </li>
+        <li>
+            <p><a href="#hab" alt="Link lista de habilidades">Link para habilidades.</a></p>
+        </li>
+        <li>
+            <p><a href="#links" alt="Link lista links">Link para lista de links.</a></p>
+        </li>
+
+    </ul>
+
+
+
+
+
+
+
+
+
+
+
+
 
 </body>
+
 </html>
